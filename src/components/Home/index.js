@@ -9,13 +9,15 @@ const Home = () => {
             <div className = "text-zone">
                 <h1>Hi, <br /> I am 
                 <img src={LogoTitle} alt="developer" />
-                yush
+                yush Chauhan
                 <br />
-                CS Student
-                <br />
-                at BITS Hyderabad
                 </h1>
+                <h2>
+                CS Student
+                at BITS Hyderabad
+                </h2>
                 <h2>Full Stack Developer / ML Enthusiast</h2>
+                <br />
                 <Link to="/contact" className = 'flat-button'> CONTACT ME</Link>
             </div>
 
