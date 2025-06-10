@@ -42,19 +42,26 @@ $primary-color: #ffd700; // Gold color
 @import 'animate.css';
 
 @font-face {
-  font-family:'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family:'La Belle Aurore';
-  src: url('C:/Coding/Projects/Portfolio Website/react-portfolio/src/assets/fonts/LaBelleAurore.woff2') format('wolff2');
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family:'Coolvetica';
-  src: url('C:/Coding/Projects/Portfolio Website/react-portfolio/src/assets/fonts/CoolveticaRg-Regular.woff2') format('wolff2');
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 input,
 textarea{
