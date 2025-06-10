@@ -13,6 +13,7 @@ const Home = () => {
                 <br />
                 CS Student
                 <br />
+                at BITS Hyderabad
                 </h1>
                 <h2>Full Stack Developer / ML Enthusiast</h2>
                 <Link to="/contact" className = 'flat-button'> CONTACT ME</Link>
