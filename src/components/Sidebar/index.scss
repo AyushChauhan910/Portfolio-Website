@@ -1,6 +1,6 @@
 .nav-bar{
     background: #181818;
-    width: 90px;
+    width: 80px;
     height: 100%;
     position: absolute;
     top: 0%;
@@ -16,6 +16,9 @@
             margin: 8px auto;
             width: 80px;
             height: auto;
+            margin-left: -20px;
+            
+            
 
             &.sub-logo{
                 width: 50px;
