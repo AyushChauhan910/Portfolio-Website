@@ -1,0 +1,20 @@
+.logo-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50vw;   // logo size — tweak as needed
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;    // for GSAP animation
+}
+
+.solid-logo {
+  position: absolute;
+  bottom: -1vh;         // move it upward
+  right: 20vw;          // move it inward (left)
+  width: 150%;          // oversized for impact
+  transform: rotate(30deg);
+  transform-origin: bottom right;
+  opacity: 0;           // for GSAP
+}
