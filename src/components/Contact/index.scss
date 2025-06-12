@@ -1,25 +1,56 @@
-.contact-form{
-    width: 100%;
-    margin-top: 20px;
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
 
-    ul{
-        padding: 0;
-        margin: 0;
+.contact-form ul li {
+  margin-bottom: 15px;
+}
 
-        li{
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-bottom: 10px;
-            overflow: hidden;
-            display: block;
-            position: relative;
-            opacity: 0;
-            animation: fadeInUp 2s 2s;
-            animation-fill-mode: forwards ;
-            clear: both;
-        }
+.contact-form .half {
+  width: 48%;
+  display: inline-block;
+}
 
-        
-    }
+.contact-form .half:first-child {
+  margin-right: 4%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #ddc6f8;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #888;
+  font-weight: bold;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form .flat-button {
+  background-color: transparent;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-form .flat-button:hover {
+  background-color: #ffd700;
+  color: #000;
 }
