@@ -2,7 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AnimatedLetters from "../AnimatedLetters";
 import { useState } from "react";
 import { useEffect } from "react";
-import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faCss3, faGithub, faHtml5, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import './index.scss'
 
 
 const About = () => {
@@ -16,7 +17,8 @@ const About = () => {
         }, []);
     
     return (
-        <div className = "container about-page">
+        <>
+            <div className = "container about-page">
             <div className = "text-zone">
                 <h1>
                     <AnimatedLetters 
@@ -44,7 +46,7 @@ const About = () => {
             <div className = "stage-cube-cont">
                 <div className = "cubespinner">
                     <div className = "face1" >
-                        <FontAwesomeIcon icon={faPython} color = "#DD0031" />
+                        <FontAwesomeIcon icon={faPython} color = "#ffd700" />
 
                     </div>
 
@@ -54,28 +56,29 @@ const About = () => {
                     </div>
 
                     <div className = "face3" >
-                        <FontAwesomeIcon icon={faCss3} color = "#DD0031" />
+                        <FontAwesomeIcon icon={faCss3} color = "#28A4D9" />
 
                     </div>
 
                     <div className = "face4" >
-                        <FontAwesomeIcon icon={faReact} color = "#DD0031" />
+                        <FontAwesomeIcon icon={faReact} color = "#5ED4F4" />
 
                     </div>
 
                     <div className = "face5" >
-                        <FontAwesomeIcon icon={faJsSquare} color = "#DD0031" />
+                        <FontAwesomeIcon icon={faJsSquare} color = "#EFD81D" />
 
                     </div>
 
                     <div className = "face6" >
-                        <FontAwesomeIcon icon={faGitAlt} color = "#DD0031" />
+                        <FontAwesomeIcon icon={faGithub} color = "#000" />
 
                     </div>
                 </div>
             </div>
-        </div>
-    )
+            </div>
+       </>
+    )   
 }
 
 export default About;
