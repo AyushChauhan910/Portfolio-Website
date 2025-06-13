@@ -59,7 +59,7 @@
     position: absolute;
     background-color: #000;
     top: 50px;
-    right: 10%;
+    right: 28%;
     z-index: 999999;
     width: 267px;
     padding: 20px;
@@ -77,4 +77,12 @@
         padding-top: 20px;
         color: #ffd700;
     }
+}
+
+.map-wrap{
+    background: rgba(8,253,216,0.1);
+    float: right;
+    width: 46%;
+    height: 100%;
+    
 }
