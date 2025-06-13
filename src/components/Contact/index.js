@@ -75,6 +75,18 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <div className = "info-map">
+                Ayush Chauhan,
+                <br />
+                India,
+                <br />
+                D1/86 , Janakpuri - 110058 <br />
+                New Delhi<br />
+                <span>talktoayushchauhan@gmail.com</span>
+            </div>
+            <div className = "map-wrap">
+
+            </div>
         </div>
     );
 };
