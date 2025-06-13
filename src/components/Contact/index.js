@@ -1,9 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
+    const refForm = useRef() 
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -12,6 +14,28 @@ const Contact = () => {
         return () => clearTimeout(timeoutId);
     }, []);
 
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs
+            .sendForm(
+                'service_k50trvm',
+                'template_tmo7566',
+                refForm.current,
+                'gPk957girgEoDKDfo'
+
+            )
+            .then(
+                () => {
+                    alert('Message successfully sent!')
+                    window.location.reload(false)
+                },
+                () => {
+                    alert('Failed to send the message , try again.')
+                }
+            )
+
+    }
     return (
         <div className="container contact-page">
             <div className="text-zone">
@@ -30,7 +54,7 @@ const Contact = () => {
                     a message via email or LinkedIn. Looking forward to hearing from you!
                 </p>
                 <div className="contact-form">
-                    <form>
+                    <form ref = {refForm} onSubmit ={sendEmail} >
                         <ul>
                             <li className="half">
                                 <input type="text" name="name" placeholder="Name" required />
