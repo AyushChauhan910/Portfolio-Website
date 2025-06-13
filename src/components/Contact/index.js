@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import emailjs from '@emailjs/browser'
 
+
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef() 
@@ -80,13 +81,12 @@ const Contact = () => {
                 <br />
                 India,
                 <br />
-                D1/86 , Janakpuri - 110058 <br />
+                Home - D1/86 , Janakpuri - 110058 <br />
                 New Delhi<br />
+                College - BITS Pilani , Hyderbad Campus
                 <span>talktoayushchauhan@gmail.com</span>
             </div>
-            <div className = "map-wrap">
-
-            </div>
+            
         </div>
     );
 };
