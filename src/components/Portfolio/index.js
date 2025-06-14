@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
-import pwebsite from 'C:/Coding/Projects/Portfolio Website/react-portfolio/src/assets/images/pwebsite.png'
-import mrs from 'C:/Coding/Projects/Portfolio Website/react-portfolio/src/assets/images/mrs.png'
-import nprd from 'C:/Coding/Projects/Portfolio Website/react-portfolio/src/assets/images/nprd.png'
+import pwebsite from '../../assets/images/prwebsite.png'
+import mrs from '../../assets/images/mrs.png'
+import nprd from '../../assets/images/nprd.png'
 
 const projects = [
   {
