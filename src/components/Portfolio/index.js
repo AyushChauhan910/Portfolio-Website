@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
-import pwebsite from '../../assets/images/prwebsite.png'
+import pwebsite from '../../assets/images/pwebsite.png'
 import mrs from '../../assets/images/mrs.png'
 import nprd from '../../assets/images/nprd.png'
 
