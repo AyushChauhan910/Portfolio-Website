@@ -19,7 +19,7 @@ const projects = [
     description: "A personal portfolio website showcasing my skills, projects, and experience as a developer. Built with React and SCSS, featuring responsive design and animated UI",
     tech: ["React", "JavaScript", "SCSS", "HTML5", "Responsive Design"],
     image: pwebsite,
-    demo: "https://portfoliowebsite-three-lovat.vercel.app/",
+    demo: "https://portfolio-website-chi-ebon-13.vercel.app/",
     code: "https://github.com/AyushChauhan910/Portfolio-Website"
   },
   {
