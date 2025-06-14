@@ -209,3 +209,53 @@
         }
     }
 }
+
+.portfolio-page{
+    h1{
+            font-size: 50px;
+            font-family: 'Coolvetica';
+            color: #ffd700;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            right: 500px;
+            
+            
+            
+            &::before{
+                content: '<h1>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                position: absolute;
+                margin-top: -10px;
+                left: -10px;
+                opacity: 0;
+                color: #ffd700;
+                line-height: 18px; 
+                letter-spacing: 0px;
+            }
+
+            &::after{
+                content: '</h1>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                position: absolute;
+                margin-left: 20px;
+                left: -30px;
+                opacity: 0;
+                color: #ffd700;
+                line-height: 18px; 
+                letter-spacing: 0px;
+                bottom: -20px;
+
+            }
+            
+        }
+
+    .text-animate-hover{
+        &:hover{
+            color:#fff
+        }
+    }
+}
