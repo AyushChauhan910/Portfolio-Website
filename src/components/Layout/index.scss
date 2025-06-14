@@ -212,14 +212,14 @@
 
 .portfolio-page{
     h1{
-            font-size: 50px;
+            font-size: 45px;
             font-family: 'Coolvetica';
             color: #ffd700;
             font-weight: 400;
             margin-top: 0;
-            position: relative;
+            position:relative;
             margin-bottom: 40px;
-            right: 500px;
+            right: 40%;
             
             
             
@@ -242,7 +242,7 @@
                 font-size: 18px;
                 position: absolute;
                 margin-left: 20px;
-                left: -30px;
+                left: 80%;
                 opacity: 0;
                 color: #ffd700;
                 line-height: 18px; 
@@ -259,3 +259,4 @@
         }
     }
 }
+
