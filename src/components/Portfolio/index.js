@@ -16,16 +16,16 @@ const projects = [
     description: "A personal portfolio website showcasing my skills, projects, and experience as a developer. Built with React and SCSS, featuring responsive design and animated UI",
     tech: ["React", "JavaScript", "SCSS", "HTML5", "Responsive Design"],
     image: "https://via.placeholder.com/300x180?text=Portfolio+Site",
-    demo: "#",
-    code: "#"
+    demo: "https://portfoliowebsite-three-lovat.vercel.app/",
+    code: "https://github.com/AyushChauhan910/Portfolio-Website"
   },
   {
-    title: "Chat App",
-    description: "A real-time chat application using Socket.IO.",
-    tech: ["React", "Node.js", "Socket.IO"],
+    title: "NOVA Pharmacy Relational Database",
+    description: "A comprehensive SQL database project designed for “NOVA”, a chain of pharmacies. The schema models patients, doctors, pharmaceutical companies, drugs, pharmacies, prescriptions, and contracts, supporting complex relationships and real-world pharmacy operations. To see the live demo , click on the button and copy the code from the github repo.",
+    tech: ["SQL", "Relational Database Design"],
     image: "https://via.placeholder.com/300x180?text=Chat+App",
-    demo: "#",
-    code: "#"
+    demo: "https://livesql.oracle.com/next/",
+    code: "https://github.com/AyushChauhan910/NOVA-pharmacy-relational-database"
   },
   // Add more projects as needed
 ];
