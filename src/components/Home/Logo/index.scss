@@ -11,9 +11,9 @@
 
 .solid-logo {
   position: absolute;
-  bottom: -1vh;         // move it upward
+  bottom: 7vh;         // move it upward
   right: 20vw;          // move it inward (left)
-  width: 150%;          // oversized for impact
+  width: 110%;          // oversized for impact
   transform: rotate(30deg);
   transform-origin: bottom right;
   opacity: 0;           // for GSAP
