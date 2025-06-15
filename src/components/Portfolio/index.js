@@ -45,6 +45,7 @@ const Portfolio = () => {
 
   return (
     <div className="container portfolio-page">
+      <div className="page-title-wrapper">
       <h1 className="page-title">
         <AnimatedLetters
           letterClass={letterClass}
@@ -52,6 +53,7 @@ const Portfolio = () => {
           idx={15}
         />
       </h1>
+      </div>
       <div className="projects-grid">
         {projects.map((project, idx) => (
           <div className="project-card" key={idx}>
