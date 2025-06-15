@@ -102,15 +102,20 @@
 }
 
 // Responsive adjustments
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .portfolio-page {
     padding-left: 24px;
     padding-right: 24px;
     width: 100%;
     .page-title {
-      margin-left: 0;
-      text-align: center;
-      font-size: 2.5rem;
+      position: initial;
+      transform: none;
+      width: 100%;
+      display: block;
+      padding: 20px;
+      box-sizing: border-box;
+      transform: translateX(-20%);
+      
     }
   }
 }
