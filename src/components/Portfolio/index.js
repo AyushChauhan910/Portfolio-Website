@@ -4,16 +4,17 @@ import AnimatedLetters from "../AnimatedLetters";
 import pwebsite from '../../assets/images/pwebsite.png'
 import mrs from '../../assets/images/mrs.png'
 import nprd from '../../assets/images/nprd.png'
+import chatbot from '../../assets/images/chatbot.png'
 
 const projects = [
   {
-    title: "Music Recommendation System",
-    description: "A machine learning project that recommends songs to users based on their listening history and preferences. Features data cleaning, feature engineering, and both content-based and collaborative filtering algorithms.",
-    tech: ["Python", "Jupyter Notebook", "pandas", "scikit-learn", "matplotlib"],
-    image: mrs,
-    demo: "https://nbviewer.org/github/AyushChauhan910/ML_Project---Music_Recommendation_System/blob/main/Music_recommendation_system.ipynb",
-    code: "https://github.com/AyushChauhan910/ML_Project---Music_Recommendation_System"
+    title: "Financial Analysis Chatbot",
+    description: "Financial Analysis Chatbot is a Python-based tool that answers financial questions about Microsoft, Tesla, and Apple using data from their SEC filings. It features both a command-line and web interface, supports six core queries, and demonstrates robust data handling and error management.",
+    tech: ["Python", "Flask"],
+    image: chatbot,
+    code: "https://github.com/AyushChauhan910/Financial_Analysis_Chatbot"
   },
+
   {
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing my skills, projects, and experience as a developer. Built with React and SCSS, featuring responsive design and animated UI",
@@ -22,6 +23,15 @@ const projects = [
     demo: "https://portfolio-website-chi-ebon-13.vercel.app/",
     code: "https://github.com/AyushChauhan910/Portfolio-Website"
   },
+  {
+    title: "Music Recommendation System",
+    description: "A machine learning project that recommends songs to users based on their listening history and preferences. Features data cleaning, feature engineering, and both content-based and collaborative filtering algorithms.",
+    tech: ["Python", "Jupyter Notebook", "pandas", "scikit-learn", "matplotlib"],
+    image: mrs,
+    demo: "https://nbviewer.org/github/AyushChauhan910/ML_Project---Music_Recommendation_System/blob/main/Music_recommendation_system.ipynb",
+    code: "https://github.com/AyushChauhan910/ML_Project---Music_Recommendation_System"
+  },
+
   {
     title: "NOVA Pharmacy Relational Database",
     description: "A comprehensive SQL database project designed for “NOVA”, a chain of pharmacies. The schema models patients, doctors, pharmaceutical companies, drugs, pharmacies, prescriptions, and contracts, supporting complex relationships and real-world pharmacy operations. To see the live demo , click on the button and copy the code from the github repo.",
