@@ -5,8 +5,17 @@ import pwebsite from '../../assets/images/pwebsite.png'
 import mrs from '../../assets/images/mrs.png'
 import nprd from '../../assets/images/nprd.png'
 import chatbot from '../../assets/images/chatbot.png'
+import food from '../../assets/images/food1.jpg'
 
 const projects = [
+  {
+    title: "MERN - Food App",
+    description: "MERN-FoodApp is a full-stack food delivery web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse menus, manage their cart, and place orders online, while providing an admin panel for restaurant owners to manage menus and orders. Key features include secure user authentication, responsive design, and a clean separation between frontend and backend via RESTful APIs",
+    tech: ["MongoDB", "Express.js","React.js","Node.js","JWT (JSON Web Tokens)","TailwindCSS","Javascript"],
+    image: food,
+    demo: "https://mern-food-app-mu.vercel.app/",
+    code: "https://github.com/AyushChauhan910/MERN-FoodApp"
+  },
   {
     title: "Financial Analysis Chatbot",
     description: "Financial Analysis Chatbot is a Python-based tool that answers financial questions about Microsoft, Tesla, and Apple using data from their SEC filings. It features both a command-line and web interface, supports six core queries, and demonstrates robust data handling and error management.",
