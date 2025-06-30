@@ -6,8 +6,16 @@ import mrs from '../../assets/images/mrs.png'
 import nprd from '../../assets/images/nprd.png'
 import chatbot from '../../assets/images/chatbot.png'
 import food from '../../assets/images/food1.jpg'
+import fantasy from '../../assets/images/fantasy.png'
 
 const projects = [
+  {
+    title: "Football Fantasy App - Ongoing",
+    description: "Premier League Fantasy App is an ongoing, full-stack web application that lets users create their own fantasy football teams using real Premier League players, track fixtures, and compete on leaderboards. It features live data integration via the Football-Data.org API, team management within a budget, user authentication, and a responsive UI built with Next.js. The project demonstrates skills in API integration, backend and frontend development, and deployment using free hosting services",
+    tech: ["Next.js", "Express.js","PostgreSQL","Node.js","JWT (JSON Web Tokens)","API Integration","Javascript"],
+    image: fantasy,
+    code: "https://github.com/AyushChauhan910/premier-league-fantasy-app"
+  },
   {
     title: "MERN - Food App",
     description: "MERN-FoodApp is a full-stack food delivery web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse menus, manage their cart, and place orders online, while providing an admin panel for restaurant owners to manage menus and orders. Key features include secure user authentication, responsive design, and a clean separation between frontend and backend via RESTful APIs",
