@@ -14,6 +14,7 @@ const projects = [
     description: "Premier League Fantasy App is an ongoing, full-stack web application that lets users create their own fantasy football teams using real Premier League players, track fixtures, and compete on leaderboards. It features live data integration via the Football-Data.org API, team management within a budget, user authentication, and a responsive UI built with Next.js. The project demonstrates skills in API integration, backend and frontend development, and deployment using free hosting services",
     tech: ["Next.js", "Express.js","PostgreSQL","Node.js","JWT (JSON Web Tokens)","API Integration","Javascript"],
     image: fantasy,
+    demo: "https://premier-league-fantasy-app.vercel.app/login",
     code: "https://github.com/AyushChauhan910/premier-league-fantasy-app"
   },
   {
