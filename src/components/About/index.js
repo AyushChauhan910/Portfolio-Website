@@ -37,8 +37,8 @@ const About = () => {
                     and I enjoy working on projects that challenge me to think creatively and solve complex problems.
                 </p>
                 <p>
-                    In my free time, I like to explore new technologies, work on personal projects, 
-                    and contribute to open-source projects. I am also an avid reader and enjoy learning about new advancements in the tech industry.
+                    In my free time, I like to explore new technologies and work on personal projects
+                    . I am also an avid reader and enjoy learning about new advancements in the tech industry.
                 </p>
 
             </div>
