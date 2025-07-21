@@ -30,7 +30,7 @@ const projects = [
   },
 
   {
-    title: "NOVA Pharmacy Relational Database",
+    title: "Pharmacy Management System",
     description: "A comprehensive SQL database project designed for “NOVA”, a chain of pharmacies. The schema models patients, doctors, pharmaceutical companies, drugs, pharmacies, prescriptions, and contracts, supporting complex relationships and real-world pharmacy operations. To see the live demo , click on the button and copy the code from the github repo.",
     tech: ["SQL", "Relational Database Design"],
     image: nprd,
