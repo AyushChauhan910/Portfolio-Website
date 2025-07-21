@@ -29,7 +29,7 @@ const About = () => {
                 </h1>
                 <p>
                     I am Ayush Chauhan, a BITS Hyderabad Computer Science student with a passion for technology and innovation. 
-                    I have a keen interest in Full Stack Development and Machine Learning, 
+                    I have a keen interest in Full Stack Development, Artificial Intelligence and Machine Learning, 
                     and I am always eager to learn new skills and technologies.
                 </p>
                 <p>
