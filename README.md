@@ -23,9 +23,9 @@ Welcome to my **Personal Portfolio Website**! This project showcases my work, sk
 
 ---
 
-## 📸 Screenshots
+## Link for the Website
 
-> _Add screenshots or a GIF here to showcase your site!_
+https://portfolio-website-chi-ebon-13.vercel.app/
 
 ---
 
