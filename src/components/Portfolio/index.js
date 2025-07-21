@@ -13,8 +13,8 @@ const projects = [
   
   {
     title: "Music Recommendation System",
-    description: "A machine learning project that recommends songs to users based on their listening history and preferences. Features data cleaning, feature engineering, and both content-based and collaborative filtering algorithms.",
-    tech: ["Python", "Jupyter Notebook", "pandas", "scikit-learn", "matplotlib"],
+    description: "MusicFlow is a modern, responsive web application that leverages AI-driven content-based filtering to deliver personalized music recommendations. With a sleek dark-themed interface and smooth animations, users can search songs, artists, and genres in real time; rate and filter recommendations by mood (e.g., happy, sad, energetic); and enjoy an integrated mini music player with playback controls. Built for multilingual support, the platform adapts to English, Hindi, and Punjabi preferences, offering an engaging, mobile-friendly experience that learns from each interaction to suggest tracks perfectly suited to your tastes.",
+    tech: ["React 18", "Flask", "Tailwind CSS", "Axios", "Pandas","Scikit-learn","NumPy","TF-IDF vectorization and cosine similarity (content-based filtering)","RESTful Flask endpoints"],
     image: mrs,
     demo: "https://music-recommendation-system-theta.vercel.app",
     code: "https://github.com/AyushChauhan910/Music-Recommendation-System"
