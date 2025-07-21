@@ -7,6 +7,7 @@ import nprd from '../../assets/images/nprd.png'
 import chatbot from '../../assets/images/chatbot.png'
 import food from '../../assets/images/food1.jpg'
 import fantasy from '../../assets/images/fantasy.png'
+import floorplanner from '../../assets/images/floor-plan-icon.png'
 
 const projects = [
   {
@@ -25,14 +26,7 @@ const projects = [
     demo: "https://mern-food-app-mu.vercel.app/",
     code: "https://github.com/AyushChauhan910/MERN-FoodApp"
   },
-  {
-    title: "Financial Analysis Chatbot",
-    description: "Financial Analysis Chatbot is a Python-based tool that answers financial questions about Microsoft, Tesla, and Apple using data from their SEC filings. It features both a command-line and web interface, supports six core queries, and demonstrates robust data handling and error management.",
-    tech: ["Python", "Flask"],
-    image: chatbot,
-    code: "https://github.com/AyushChauhan910/Financial_Analysis_Chatbot"
-  },
-
+  
   {
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing my skills, projects, and experience as a developer. Built with React and SCSS, featuring responsive design and animated UI",
@@ -58,6 +52,22 @@ const projects = [
     demo: "https://livesql.oracle.com/next/",
     code: "https://github.com/AyushChauhan910/NOVA-pharmacy-relational-database"
   },
+
+  {
+    title: "2-D Floor Planner",
+    description: "2D Floor Planner is a user-friendly Java application for designing, editing, and visualizing room layouts from a top-down view. It lets users easily add, move, and resize rooms, walls, doors, and windows with intuitive drag-and-drop controls, and supports saving, loading, and exporting floor plans as images. The tool is ideal for quickly sketching out interior spaces for personal or educational use.",
+    tech: ["Java", "Java Swing","Maven"],
+    image: floorplanner,
+    code: "https://github.com/AyushChauhan910/2D-Floor-Planner"
+  },
+
+  {
+    title: "Financial Analysis Chatbot",
+    description: "Financial Analysis Chatbot is a Python-based tool that answers financial questions about Microsoft, Tesla, and Apple using data from their SEC filings. It features both a command-line and web interface, supports six core queries, and demonstrates robust data handling and error management.",
+    tech: ["Python", "Flask"],
+    image: chatbot,
+    code: "https://github.com/AyushChauhan910/Financial_Analysis_Chatbot"
+  }
   // Add more projects as needed
 ];
 
