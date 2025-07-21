@@ -10,31 +10,7 @@ import fantasy from '../../assets/images/fantasy.png'
 import floorplanner from '../../assets/images/floor-plan-icon.png'
 
 const projects = [
-  {
-    title: "Football Fantasy App - Ongoing",
-    description: "Premier League Fantasy App is a full-stack web application that lets users create their own fantasy football teams using real Premier League players, track fixtures, and compete on leaderboards. It features live data integration via the Football-Data.org API, team management within a budget, user authentication, and a responsive UI built with React. The project demonstrates skills in API integration, backend and frontend development, and deployment using free hosting services",
-    tech: ["Next.js", "Express.js","PostgreSQL","Node.js","JWT (JSON Web Tokens)","API Integration","Javascript"],
-    image: fantasy,
-    demo: "https://premier-league-fantasy-app.vercel.app/login",
-    code: "https://github.com/AyushChauhan910/premier-league-fantasy-app"
-  },
-  {
-    title: "MERN - Food App",
-    description: "MERN-FoodApp is a full-stack food delivery web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse menus, manage their cart, and place orders online, while providing an admin panel for restaurant owners to manage menus and orders. Key features include secure user authentication, responsive design, and a clean separation between frontend and backend via RESTful APIs",
-    tech: ["MongoDB", "Express.js","React.js","Node.js","JWT (JSON Web Tokens)","TailwindCSS","Javascript"],
-    image: food,
-    demo: "https://mern-food-app-mu.vercel.app/",
-    code: "https://github.com/AyushChauhan910/MERN-FoodApp"
-  },
   
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio website showcasing my skills, projects, and experience as a developer. Built with React and SCSS, featuring responsive design and animated UI",
-    tech: ["React", "JavaScript", "SCSS", "HTML5", "Responsive Design"],
-    image: pwebsite,
-    demo: "https://portfolio-website-chi-ebon-13.vercel.app/",
-    code: "https://github.com/AyushChauhan910/Portfolio-Website"
-  },
   {
     title: "Music Recommendation System",
     description: "A machine learning project that recommends songs to users based on their listening history and preferences. Features data cleaning, feature engineering, and both content-based and collaborative filtering algorithms.",
@@ -45,12 +21,39 @@ const projects = [
   },
 
   {
+    title: "Football Fantasy App",
+    description: "Premier League Fantasy App is a full-stack web application that lets users create their own fantasy football teams using real Premier League players, track fixtures, and compete on leaderboards. It features live data integration via the Football-Data.org API, team management within a budget, user authentication, and a responsive UI built with React. The project demonstrates skills in API integration, backend and frontend development, and deployment using free hosting services",
+    tech: ["Next.js", "Express.js","PostgreSQL","Node.js","JWT (JSON Web Tokens)","API Integration","Javascript"],
+    image: fantasy,
+    demo: "https://premier-league-fantasy-app.vercel.app/login",
+    code: "https://github.com/AyushChauhan910/premier-league-fantasy-app"
+  },
+
+  {
     title: "NOVA Pharmacy Relational Database",
     description: "A comprehensive SQL database project designed for “NOVA”, a chain of pharmacies. The schema models patients, doctors, pharmaceutical companies, drugs, pharmacies, prescriptions, and contracts, supporting complex relationships and real-world pharmacy operations. To see the live demo , click on the button and copy the code from the github repo.",
     tech: ["SQL", "Relational Database Design"],
     image: nprd,
     demo: "https://livesql.oracle.com/next/",
     code: "https://github.com/AyushChauhan910/NOVA-pharmacy-relational-database"
+  },
+
+  {
+    title: "MERN - Food App",
+    description: "MERN-FoodApp is a full-stack food delivery web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse menus, manage their cart, and place orders online, while providing an admin panel for restaurant owners to manage menus and orders. Key features include secure user authentication, responsive design, and a clean separation between frontend and backend via RESTful APIs",
+    tech: ["MongoDB", "Express.js","React.js","Node.js","JWT (JSON Web Tokens)","TailwindCSS","Javascript"],
+    image: food,
+    demo: "https://mern-food-app-mu.vercel.app/",
+    code: "https://github.com/AyushChauhan910/MERN-FoodApp"
+  },
+
+  {
+    title: "Portfolio Website",
+    description: "A personal portfolio website showcasing my skills, projects, and experience as a developer. Built with React and SCSS, featuring responsive design and animated UI",
+    tech: ["React", "JavaScript", "SCSS", "HTML5", "Responsive Design"],
+    image: pwebsite,
+    demo: "https://portfolio-website-chi-ebon-13.vercel.app/",
+    code: "https://github.com/AyushChauhan910/Portfolio-Website"
   },
 
   {
@@ -68,7 +71,7 @@ const projects = [
     image: chatbot,
     code: "https://github.com/AyushChauhan910/Financial_Analysis_Chatbot"
   }
-  // Add more projects as needed
+  
 ];
 
 const Portfolio = () => {
