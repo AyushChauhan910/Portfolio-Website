@@ -84,25 +84,5 @@ react-portfolio/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo and submit pull requests.
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE) _(add a LICENSE file if you want to specify this)_
-
----
-
-## 📬 Contact
-
-- **Your Name**
-- [your.email@example.com](mailto:your.email@example.com)
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [Portfolio Live Site](https://your-portfolio-live-link.com)
-
----
 
 > _Thank you for visiting my portfolio!_ 
