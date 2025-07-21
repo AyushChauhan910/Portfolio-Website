@@ -8,6 +8,7 @@ import chatbot from '../../assets/images/chatbot.png'
 import food from '../../assets/images/food1.jpg'
 import fantasy from '../../assets/images/fantasy.png'
 import floorplanner from '../../assets/images/floor-plan-icon.png'
+import pharmacy from '../../assets/images/pharm.png'
 
 const projects = [
   
@@ -33,7 +34,7 @@ const projects = [
     title: "Pharmacy Management System",
     description: "Pharmacy Management System is a full-stack web application for managing pharmacy operations efficiently. It features a responsive React frontend with Material-UI, secure JWT authentication, role-based access control, and real-time analytics using Chart.js. The Node.js/Express backend connects to MongoDB for data storage, supporting easy management of patients, drugs, doctors, and pharmacies with interactive dashboards and reporting.",
     tech: ["React", "Material UI","Chart.js","Node.js","Express.js","MongoDB","JWT (JSON Web Tokens)"],
-    image: nprd,
+    image: pharmacy,
     demo: "https://pharmacy-management-system-ten.vercel.app",
     code: "https://github.com/AyushChauhan910/Pharmacy-Management-System"
   },
