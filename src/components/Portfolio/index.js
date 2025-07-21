@@ -31,8 +31,8 @@ const projects = [
 
   {
     title: "Pharmacy Management System",
-    description: "A comprehensive SQL database project designed for “NOVA”, a chain of pharmacies. The schema models patients, doctors, pharmaceutical companies, drugs, pharmacies, prescriptions, and contracts, supporting complex relationships and real-world pharmacy operations. To see the live demo , click on the button and copy the code from the github repo.",
-    tech: ["SQL", "Relational Database Design"],
+    description: "Pharmacy Management System is a full-stack web application for managing pharmacy operations efficiently. It features a responsive React frontend with Material-UI, secure JWT authentication, role-based access control, and real-time analytics using Chart.js. The Node.js/Express backend connects to MongoDB for data storage, supporting easy management of patients, drugs, doctors, and pharmacies with interactive dashboards and reporting.",
+    tech: ["React", "Material UI","Chart.js","Node.js","Express.js","MongoDB","JWT (JSON Web Tokens)"],
     image: nprd,
     demo: "https://livesql.oracle.com/next/",
     code: "https://github.com/AyushChauhan910/NOVA-pharmacy-relational-database"
