@@ -16,8 +16,8 @@ const projects = [
     description: "A machine learning project that recommends songs to users based on their listening history and preferences. Features data cleaning, feature engineering, and both content-based and collaborative filtering algorithms.",
     tech: ["Python", "Jupyter Notebook", "pandas", "scikit-learn", "matplotlib"],
     image: mrs,
-    demo: "https://nbviewer.org/github/AyushChauhan910/ML_Project---Music_Recommendation_System/blob/main/Music_recommendation_system.ipynb",
-    code: "https://github.com/AyushChauhan910/ML_Project---Music_Recommendation_System"
+    demo: "https://music-recommendation-system-theta.vercel.app",
+    code: "https://github.com/AyushChauhan910/Music-Recommendation-System"
   },
 
   {
