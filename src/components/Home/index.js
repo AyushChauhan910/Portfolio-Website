@@ -38,7 +38,7 @@ const Home = () => {
                 <h2>
                 at BITS Hyderabad
                 <br /> <br /> <br/> <br />
-                Full Stack Developer / ML Enthusiast</h2>
+                Full Stack Developer | AI/ML Enthusiast</h2>
                 <br />
                 <Link to="/contact" className = 'flat-button'> CONTACT ME</Link>
             </div>
