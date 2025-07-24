@@ -9,7 +9,17 @@ import food from '../../assets/images/food1.jpg'
 import fantasy from '../../assets/images/fantasy.png'
 import floorplanner from '../../assets/images/floor-plan-icon.png'
 import pharma from '../../assets/images/pharmacy1.png'
+import deepfake from '../../assets/images/deepfake.jpeg'
 const projects = [
+  
+  {
+    title: "Deepfake Detector and Media Authentication Agent",
+    description: "The Deepfake Detector is an end-to-end, multimodal system designed to identify synthetic media (known as deepfakes) across images, videos, and audio. The platform leverages advanced AI models trained on major public datasets to distinguish real from manipulated content by analyzing subtle inconsistencies in facial movements, visual artifacts, and audio cues. It features a unified backend API (deployed via Hugging Face Spaces) and a modern React frontend, enabling users to upload media files and obtain real/fake predictions with confidence scores in seconds. The system emphasizes user privacy (no media retention), real-time responses, and research transparency, supporting digital literacy and online media authenticity.",
+    tech: ["PyTorch", "Torchvision","librosa","OpenCV","skikit-learn","React", "Flask", "Python","JavaScript", "Axios", "Hugging Face Spaces","Kaggle Notebooks"],
+    image: deepfake,
+    demo: "https://deepfakedetector-rouge.vercel.app/",
+    code: "https://github.com/AyushChauhan910/Deepfake-Detector"
+  },
   
   {
     title: "Music Recommendation System",
